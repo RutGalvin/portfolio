@@ -1,0 +1,105 @@
+body{
+    overflow-y:hidden;
+}
+
+header{
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    position: fixed;
+    width: 100vw;
+}
+
+header section{
+    display: flex;
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-right: 230px;
+    position: static;
+    opacity: 0.5;
+    color: #111;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logos-nav{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    color: gray;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:active{
+    color:black;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-home{
+    background-image: url("../img/Fotofondo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#text, #buttonsContain {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    font-size: large;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+
+#text p{
+    margin-top: 30px;
+    color: teal;
+}
+#buttonsContain{
+    width: 350px;
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+#button{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+}
+
+#button:hover{
+    background-color: teal;
+}

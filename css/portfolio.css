@@ -1,0 +1,266 @@
+/*
+font-family: 'Girassol', cursive;
+font-family: 'Lato', sans-serif;
+
+*/
+
+
+/*HEADER*/
+
+
+header{
+    background-color: white;
+    width: 100vw;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    position: fixed;
+}
+
+header section{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-right: 230px;
+    position: static;
+    opacity: 0.5;
+    color: #111;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logos-nav{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    color: gray;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:active{
+    color:black;
+}
+
+/*MAIIINN*/
+main{
+    width: 80vw;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: inline;
+    margin-left: 88px;
+}
+
+
+#portada, #ejercicio1, #ejercicio2, #ejercicio3{
+    margin: 0 auto;
+    width: 1020px;
+    position:static;
+    overflow: hidden;
+}
+
+
+#portada{
+    background-image: url("../img/amelie-mourichon-MKDEMlPRoYU-unsplash.jpg");
+    background-position: center;
+    height: 30vh;
+    width: 100vw;
+    margin-top: 90px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+#portada div{
+    width: 500px;
+    margin: 0 auto;
+    height: auto;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 25px;
+    margin-left: 200px;
+}
+
+
+h1, p{
+    padding-bottom: 32px;
+}
+
+h1{
+    font-family: "Lato";
+    font-size: 36px;
+}
+
+p{
+    font-size: 16px;
+    font-family: "Lato";
+}
+
+.button{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.button:hover{
+    background-color: teal;
+}
+
+#seccionUno, #seccionDos, #seccionTres{
+    margin: 0 auto;
+}
+
+
+#ejercicio1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imguno{
+    width: 420px;
+    height: 269px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+#ejercicio1 div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-right: 200px;
+}
+
+
+#ejercicio2{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgdos{
+    width: 420px;
+    height: 269px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+#ejercicio2 div{
+    width: 500px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: justify;
+    margin-left: 200px;
+}
+
+#ejercicio3{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imgtres{
+    width: 420px;
+    height: 269px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+#ejercicio3 div{
+    width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    margin-right: 200px;
+}
+
+
+footer{
+    background-color: black;
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#items a{
+    font-size: 8px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 5%;
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+#items a:last-child{
+    margin-left: 0;
+}
+

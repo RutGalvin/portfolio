@@ -1,0 +1,143 @@
+header{
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    position: fixed;
+    width: 100vw;
+}
+
+header section{
+    display: flex;
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-right: 230px;
+    position: static;
+    opacity: 0.5;
+    color: #111;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#logos-nav{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    color: gray;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:active{
+    color:black;
+}
+#rigt-image{
+    width: 500px;
+    margin-left: 50px;
+}
+
+main{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+#left{
+    width: 500px;
+    margin: auto;
+    
+}
+
+#left div{
+    margin-bottom: 40px;
+}
+
+#left div:last-child{
+    margin-bottom: 0;
+}
+
+
+h2{
+    font-size: x-large;
+    line-height: 52px;
+    font-weight: 500;
+    text-transform: uppercase;   
+}
+
+h3{
+    font-size: larger;
+    line-height: 52px;
+    font-weight: 500;
+    text-transform: uppercase;   
+}
+
+p{
+    color: gray;
+}
+
+#logos-apps{
+    margin-top: 50px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: stretch;
+    column-count: 2;
+}
+
+
+footer{
+    background-color: black;
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#items a{
+    font-size: 8px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 5%;
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+
+#items a:last-child{
+    margin-left: 0;
+}
+
+
